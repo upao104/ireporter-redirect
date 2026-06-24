@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+  const p = new URLSearchParams(window.location.search);
+  window.location.href = 'ireporter.openreport:repid=' + p.get('id');
+</script>
+<p>i-Reporterを開いています...</p>
+</body>
+</html>
